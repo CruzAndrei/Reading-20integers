@@ -6,6 +6,8 @@ def Categorize():
 #open the three text files
     with open("numbers.txt", "r") as integers_numbers, open("even.txt", "a") as even_integers, open("odd.txt", "a") as odd_integers:
 #read the numbers.txt that contains 20integers in each line    
+        for line in integers_numbers:
+            input_number = int(line)
 #if the numbers are even
 #if the numbers are odd
 
