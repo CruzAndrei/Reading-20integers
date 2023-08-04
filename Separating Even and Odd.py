@@ -12,5 +12,7 @@ def Categorize():
             if input_number % 2 == 0:
                 even_integers.write(str(input_number) + "\n")
 #if the numbers are odd
+            else: 
+                odd_integers.write(str(input_number) + "\n")
 
 Categorize()
