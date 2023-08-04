@@ -9,6 +9,8 @@ def Categorize():
         for line in integers_numbers:
             input_number = int(line)
 #if the numbers are even
+            if input_number % 2 == 0:
+                even_integers.write(str(input_number) + "\n")
 #if the numbers are odd
 
 Categorize()
